@@ -7,7 +7,7 @@ from livekit.agents import (
     llm
 )
 from livekit.agents.multimodal import MultimodalAgent
-from livekit.plugins import openai
+from livekit.plugins.google.realtime import RealtimeModel
 from dotenv import load_dotenv
 from api import AssistantFnc
 from prompts import WELCOME_MESSAGE, INSTRUCTIONS, LOOKUP_VIN_MESSAGE
@@ -19,9 +19,10 @@ async def entrypoint(ctx: JobContext):
     await ctx.connect(auto_subscribe=AutoSubscribe.SUBSCRIBE_ALL)
     await ctx.wait_for_participant()
     
-    model = openai.realtime.RealtimeModel(
+    model = RealtimeModel(
         instructions=INSTRUCTIONS,
-        voice="shimmer",
+        model="gemini-2.5-flash-native-audio-preview-12-2025",
+        voice="Puck",
         temperature=0.8,
         modalities=["audio", "text"]
     )
