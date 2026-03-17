@@ -4,9 +4,9 @@ from livekit.agents import (
     JobContext,
     WorkerOptions,
     cli,
-    llm
+    llm,
+    MultimodalAgent
 )
-from livekit.agents.multimodal import MultimodalAgent
 from livekit.plugins.google.realtime import RealtimeModel
 from dotenv import load_dotenv
 from api import AssistantFnc
