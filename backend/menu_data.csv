@@ -1,0 +1,16 @@
+dish_id,dish_name,arabic_name,category,price,description,arabic_description,ingredients,allergens,availability
+1,Grilled Atlantic Salmon,سمك السلمون المشوي,Mains,24.99,Fresh Atlantic Salmon grilled with lemon butter sauce,سمك السلمون الأطلسي الطازج المشوي مع صلصة الزبدة والليمون,Salmon;lemon;butter;herbs,Fish;Dairy,Available
+2,Pan-Seared Scallops,الإسكالوب المقلي بالزبدة,Mains,28.99,Large sea scallops seared to perfection with garlic,إسكالوب بحر كبير مقلي بالزبدة مع الثوم,Scallops;garlic;olive oil;butter,Shellfish;Dairy,Available
+3,Shrimp Saganaki,الروبيان ساغانيكي,Appetizers,16.99,Shrimp with tomato sauce and melted feta cheese,الروبيان مع صلصة الطماطم والجبن الفيتا المذاب,Shrimp;feta;tomato;garlic,Shellfish;Dairy,Available
+4,Calamari Fritti,الحبار المقلي,Appetizers,14.99,Crispy fried squid served with marinara sauce,حبار مقلي هش يُقدم مع صلصة مارينارا,Squid;flour;marinara sauce,Shellfish,Available
+5,Fish and Chips,السمك والبطاطس المقلية,Mains,18.99,Battered cod with crispy fries and tartar sauce,سمك القد المغطى بالبقسماط مع البطاطس المقلية وصلصة تارتار,Cod;flour;potato;tartar sauce,Fish;Dairy;Gluten,Available
+6,Lobster Tail,ذيل الكركند,Mains,34.99,Grilled lobster tail with drawn butter,ذيل الكركند المشوي مع الزبدة المذابة,Lobster;butter,Shellfish;Dairy,Available
+7,Seafood Pasta,معكرونة المأكولات البحرية,Mains,22.99,Mixed seafood with fresh pasta in white wine sauce,مخلوط من المأكولات البحرية مع معكرونة طازجة في صلصة النبيذ الأبيض,Shrimp;mussels;clams;pasta;white wine,Shellfish;Gluten;Alcohol,Available
+8,Fish Tacos,تاكو السمك,Mains,16.99,Grilled fish with cabbage slaw and lime aioli,سمك مشوي مع سلطة الملفوف وصلصة الليمون الحار,Mahi-mahi;tortillas;cabbage;lime,Fish;Dairy;Gluten,Available
+9,Oyster Plate,طبق المحار,Appetizers,18.99,Fresh oysters served on ice with mignonette,محار طازج يُقدم على الثلج مع صلصة مينيونيت,Oysters;mignonette,Shellfish,Available
+10,Crab Cakes,كعك السرطان,Appetizers,15.99,Pan-fried crab cakes with remoulade sauce,كعكات سرطان البحر المقلية مع صلصة ريمولاد,Crab;breadcrumbs;egg;remoulade,Shellfish;Egg;Gluten,Available
+11,Mussels Marinara,بلح البحر مارينارا,Mains,19.99,Fresh mussels in tomato and garlic sauce with bread,بلح البحر الطازج في صلصة الطماطم والثوم مع الخبز,Mussels;tomato;garlic;bread,Shellfish;Gluten,Available
+12,Shrimp Scampi,الروبيان سكامبي,Mains,20.99,Shrimp sauteed in garlic and white wine with pasta,روبيان مقلي مع الثوم والنبيذ الأبيض مع المعكرونة,Shrimp;garlic;white wine;pasta,Shellfish;Gluten;Alcohol,Available
+13,Grilled Branzino,الدنيس المشوي,Mains,26.99,Whole Mediterranean branzino with seasonal vegetables,سمك الدنيس المتوسطي الكامل مع الخضار الموسمية,Branzino;vegetables;olive oil;herbs,Fish,Available
+14,Seafood Chowder,حساء المأكولات البحرية,Soups,12.99,Creamy chowder with mixed seafood and potatoes,حساء غني مع مخلوط من المأكولات البحرية والبطاطس,Clams;shrimp;potatoes;cream;celery,Shellfish;Dairy;Gluten,Available
+15,Caesar Salad with Shrimp,سلطة قيصر مع الروبيان,Salads,17.99,Crisp romaine with Caesar dressing and grilled shrimp,خس رومي مشرشر مع صلصة قيصر والروبيان المشوي,Shrimp;romaine;parmesan;croutons,Shellfish;Dairy;Gluten,Available

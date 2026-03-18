@@ -2,4 +2,4 @@ ai/
 .vscode/
 __pycache__/
 .env
-auto_db.sqlite
+seafood_db.sqlite

@@ -10,7 +10,7 @@ from livekit.agents import (
 from livekit.plugins.google.realtime import RealtimeModel
 from dotenv import load_dotenv
 from api import AssistantFnc
-from prompts import WELCOME_MESSAGE, INSTRUCTIONS, LOOKUP_VIN_MESSAGE
+from prompts import WELCOME_MESSAGE, INSTRUCTIONS, LOOKUP_PRODUCT_ID_MESSAGE
 import os
 
 load_dotenv()
@@ -44,7 +44,7 @@ async def entrypoint(ctx: JobContext):
         if isinstance(msg.content, list):
             msg.content = "\n".join("[image]" if isinstance(x, llm.ChatImage) else x for x in msg)
             
-        if assistant_fnc.has_car():
+        if assistant_fnc.has_seafood():
             handle_query(msg)
         else:
             find_profile(msg)
@@ -53,7 +53,7 @@ async def entrypoint(ctx: JobContext):
         session.conversation.item.create(
             llm.ChatMessage(
                 role="system",
-                content=LOOKUP_VIN_MESSAGE(msg)
+                content=LOOKUP_PRODUCT_ID_MESSAGE(msg)
             )
         )
         session.response.create()

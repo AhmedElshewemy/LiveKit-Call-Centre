@@ -12,15 +12,15 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <div className="logo">AutoZone</div>
+        <div className="logo">SeafoodPro</div>
       </header>
 
       <main>
         <section className="hero">
-          <h1>Get the Right Parts. Right Now</h1>
-          <p>Free Next Day Delivery on Eligible Orders</p>
+          <h1>Premium Seafood Products. Fresh Delivery</h1>
+          <p>Same Day Delivery on Orders Over $50</p>
           <div className="search-bar">
-            <input type="text" placeholder='Enter vehicle or part number'></input>
+            <input type="text" placeholder='Enter product ID or seafood type'></input>
             <button>Search</button>
           </div>
         </section>
